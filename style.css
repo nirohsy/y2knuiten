@@ -29,7 +29,7 @@ header , footer {
 header {
     position: relative;
 }
-body::after {
+body::before {
     height: auto;
     width: auto;
     content: "";
