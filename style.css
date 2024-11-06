@@ -11,7 +11,8 @@ body {
     grid-template-columns: 25px 1fr 25px;
     grid-template-rows: 
     [head] auto
-    [bun] auto 
+    [bun] auto
+    [pn9] auto 
     [member] auto
     [back] auto
     [foot] auto;
@@ -120,12 +121,19 @@ animation-duration:2s;
 animation-fill-mode:forwards;
 opacity:0;
 margin-top: 120px;
-margin-left: -15px;
 }
 
 section {
     grid-column: 2 / -2;
     grid-row: bun;
+}
+.pn9 {
+    grid-column: 2 / -2;
+    grid-row: pn9;
+    margin: 65px 20px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 65px 50px;
 }
 .member {
     grid-column: 2 / -2;
