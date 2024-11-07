@@ -287,8 +287,8 @@ aside i img{
     margin-left: -2px;
 }
 .nirohs {
-    letter-spacing: 0;
-    font-size: 10px;
+    letter-spacing: 0.2;
+    font-size: 12px;
 }
 .music{
     grid-column: 1 / -1;
@@ -352,7 +352,7 @@ aside i img{
     display: block;
 }
 .tickets {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .ticket {
     margin-top: 40px;
@@ -435,8 +435,8 @@ a :hover{
         margin-top: 0px;
     }
     .nirohs {
-        font-size: 0.95em;
-        letter-spacing: 0.1em;
+        font-size: 10px;
+        
     }
     .sub-title br {
         display: block;
