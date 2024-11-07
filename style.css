@@ -433,8 +433,9 @@ a :hover{
         letter-spacing: 0.12em;
         margin-top: 0px;
     }
-    .nirohs {
-        letter-spacing: 0.12em;
+    .nirohs h5{
+        font-size: 0.83em;
+        letter-spacing: 0.1em;
     }
     .sub-title br {
         display: block;
