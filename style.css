@@ -288,6 +288,7 @@ aside i img{
 }
 .nirohs {
     letter-spacing: 0;
+    font-size: 10px;
 }
 .music{
     grid-column: 1 / -1;
@@ -433,8 +434,8 @@ a :hover{
         letter-spacing: 0.12em;
         margin-top: 0px;
     }
-    .nirohs h5{
-        font-size: 0.83em;
+    .nirohs {
+        font-size: 0.9em;
         letter-spacing: 0.1em;
     }
     .sub-title br {
