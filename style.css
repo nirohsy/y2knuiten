@@ -273,12 +273,12 @@ aside a {
     text-align: center;
     color: #222;
 }
-aside i img{
-    width: 11px;
-    height: 9px;
-    margin-bottom: 0px;
+aside h5::before{
+    content: '𝕏';
+    font-family: unset;
+    font-weight: bold;
+    color: #673fd5;
     margin-right: 5px;
-    border-radius: 0%;
 }
 .pepe {
     font-size: 10px;
@@ -287,8 +287,9 @@ aside i img{
     margin-left: -2px;
 }
 .nirohs {
-    letter-spacing: 0.2;
-    font-size: 13px;
+    margin-top: 1px;
+    font-size: 0.8em;
+    letter-spacing: -0.02em;
 }
 .music{
     grid-column: 1 / -1;
@@ -435,7 +436,7 @@ a :hover{
         margin-top: 0px;
     }
     .nirohs {
-        font-size: 0.7em;
+        letter-spacing: 0.12em;
     }
     .sub-title br {
         display: block;
