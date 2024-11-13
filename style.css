@@ -459,4 +459,13 @@ a :hover{
         width: 50%;
         margin: 50px auto;
     }
+    body::after {
+        height: auto;
+        width: auto;
+        content: "";
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+        border-radius: 1000px;
+        border: solid 6px #673fd5;
+    }
 }
