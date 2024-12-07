@@ -275,12 +275,18 @@ aside a {
     text-align: center;
     color: #222;
 }
-aside h5::before{
+/*
+.tw::before{
     content: '𝕏';
     font-family: unset;
     font-weight: bold;
     color: #673fd5;
     margin-right: 5px;
+}
+*/
+.fab , .fa-brands {
+    color: #673fd5;
+    margin-right: 3px;
 }
 .pepe {
     font-size: 10px;
@@ -364,7 +370,6 @@ aside h5::before{
     text-align: center;
     font-size: 9px;
     letter-spacing: 0.5em;
-    background-color: #9156fe;
     padding-bottom: 10px;
 }
 .sponsor p {
