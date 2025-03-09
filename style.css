@@ -404,6 +404,9 @@ aside a {
     height: 35px;
     margin: 15px 10px;
 }
+.sp {
+    display: none;
+}
 
 
 
@@ -490,6 +493,9 @@ a :hover{
         padding: 20px;
     }
     .small{
-        padding: 30px;
+        width: 400px;
+    }
+    .sp {
+        display: block;
     }
 }
