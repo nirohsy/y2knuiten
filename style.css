@@ -22,6 +22,7 @@ body {
     background-color: #b5ff14;
     -webkit-text-size-adjust: none;
     text-size-adjust: none;
+    text-align: center;
 }
 header , footer {
     grid-column: 1 / -1;
@@ -365,7 +366,7 @@ aside a {
 }
 /*--タイトル両脇にスラッシュ--*/
 .ticket {
-    margin-top: 40px;
+    margin-top: 80px;
     position: relative;
   display: inline-block;
   padding: 0 45px;
@@ -405,9 +406,12 @@ aside a {
     margin: 15px 10px;
 }
 .sp {
-    display: none;
+    display: block;
 }
-
+.small{
+    width: 400px;
+    margin: 50px auto;
+}
 
 
 /*--ボタンの設定--*/
@@ -493,9 +497,9 @@ a :hover{
         padding: 20px;
     }
     .small{
-        width: 400px;
+        width: 750px;
     }
     .sp {
-        display: block;
+        display: none;
     }
 }
