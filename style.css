@@ -363,6 +363,7 @@ aside a {
 .tickets {
     margin-top: 30px;
 }
+/*--タイトル両脇にスラッシュ--*/
 .ticket {
     margin-top: 40px;
     position: relative;
@@ -386,6 +387,7 @@ aside a {
   .ticket:after {
     right: 0;
   }
+
 .sponsor {
     text-align: center;
     font-size: 9px;
@@ -487,6 +489,7 @@ a :hover{
     .buttom {
         width: 50%;
         margin: 50px auto;
+        margin: 0;
     }
     .small{
         padding: 30px;
