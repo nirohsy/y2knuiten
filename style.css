@@ -457,7 +457,7 @@ a :hover{
     transform-origin: left;
   }
 
-  
+
 @keyframes infinity-scroll-left {
     from {
       transform: translateX(0);
@@ -469,7 +469,7 @@ a :hover{
     .scroll-infinity__wrap {
       display: flex;
       overflow: hidden;
-      width: 500px;
+      width: 400px;
       margin: auto;
     }
     .scroll-infinity__list {
