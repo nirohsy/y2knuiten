@@ -457,6 +457,38 @@ a :hover{
     transform-origin: left;
   }
 
+  
+@keyframes infinity-scroll-left {
+    from {
+      transform: translateX(0);
+    }
+      to {
+      transform: translateX(-100%);
+    }
+    }
+    .scroll-infinity__wrap {
+      display: flex;
+      overflow: hidden;
+      width: 500px;
+      margin: auto;
+    }
+    .scroll-infinity__list {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .scroll-infinity__list--left {
+      animation: infinity-scroll-left 80s infinite linear 0.5s both;
+    }
+    .scroll-infinity__item {
+      width: calc(100vw / 5);
+    }
+    .scroll-infinity__item>img {
+      width: 100%;
+    }
+
+
   @media (min-width: 768px){
 
     body {
@@ -502,4 +534,8 @@ a :hover{
     .sp {
         display: none;
     }
+    .scroll-infinity__wrap {
+        width: 800px;
+    }
 }
+
